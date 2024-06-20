@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cards</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-azul border-bottom">
+    <div class="container-fluid">
+      <!-- button offcanvas -->
+      <button class="navbar btn ms-3" type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+        aria-controls="offcanvasExample">
+        <i class="bi bi-list text-color menu"></i>
+      </button>
+      <!-- button offcanvas -->
+
+      <ul class="m-auto my-2 d-flex ">
+        <img class="logo rounded-circle m-auto" src="../imagens/logo-png.jpeg" alt="logo_empresa">
+      </ul>
+
+      <button class="navbar btn me-3" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <i class="bi bi-person-circle menu text-color"></i>
+      </button>
+
+
+
+
+    </div>
+    </div>
+  </nav>
+  <!-- FIM NAVBAR -->
+
+  <!-- MAIN -->
+  <main class="bg-zul border-bottom pb-5">
+    <!-- TABELA -->
+    <section class="p-0 pt-5 container">
+      <div class="row">
+
+        <div class="py-3 text-color text-center">
+          <h4 class="text-info1 fonte-free">Encontre sua Vaga!</h4>
+        </div>
+
+        <form class="d-flex col-6 mb-5" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquise sua vaga..." aria-label="Search">
+          <button class="btn btn-outline-primary bg-azul" type="submit">
+            <span><i class="bi bi-search text-color"></i></span>
+          </button>
+        </form>
+
+
+
+
+      </div>
+
+      <div class="col-12 d-flex mb-3 bg-azul text-white py-3">
+
+
+        <div class="col-sm-2 col-lg-1 d-none d-sm-block">
+          <p class="h6 text-center m-auto">Data</p>
+        </div>
+        <div class="col-4 col-sm-5 col-lg-5">
+          <p class="h6 text-center m-auto">Projeto</p>
+        </div>
+        <div class="col-4 col-sm-3 col-lg-2">
+          <p class="h6 text-center m-auto">Categoria</p>
+        </div>
+        <div class="col-4 col-sm-2 col-lg-2">
+          <p class="h6 text-center  m-auto">Orçamento</p>
+        </div>
+        <div class="col-lg-2">
+          <p class="h6 text-center d-none d-lg-block m-auto">Status</p>
+        </div>
+
+      </div>
+
+      <div class="col-12 d-flex border align-items-center py-3">
+        <div class="col-sm-2 col-lg-1 d-none d-sm-block">
+          <p class="p-1 text-center m-auto">19/06/2024</p>
+        </div>
+        <div class="col-4 col-sm-5 col-lg-5">
+          <p class="p-1 text-center   m-auto"><a href="#" class="text-dark text-decoration-none"><strong>Sistema de
+                venda de produtos</strong></a></p>
+        </div>
+        <div class="col-4 col-sm-3 col-lg-2">
+          <p class="p-1 text-center   m-auto">Softwares e sistemas</p>
+        </div>
+        <div class="col-4 col-sm-2 col-lg-2 ">
+          <p class="p-1 text-center   m-auto">R$100 - R$500</p>
+        </div>
+        <div class="col-lg-2 ">
+          <p class="p-1 text-center d-none d-lg-block m-auto">0 interessados</p>
+        </div>
+      </div>
+
+      <div class="col-12 d-flex border align-items-center py-3 mt-3">
+        <div class="col-sm-2 col-lg-1 d-none d-sm-block">
+          <p class="p-1 text-center m-auto">19/06/2024</p>
+        </div>
+        <div class="col-4 col-sm-5 col-lg-5">
+          <p class="p-1 text-center   m-auto"><a href="" class="text-dark text-decoration-none "><strong>Criação de
+                logotipo para marca de publicação de livro</strong></a></p>
+        </div>
+        <div class="col-4 col-sm-3 col-lg-2">
+          <p class="p-1 text-center   m-auto">Logotipos </p>
+        </div>
+        <div class="col-4 col-sm-2 col-lg-2 ">
+          <p class="p-1 text-center   m-auto">R$300 - R$780</p>
+        </div>
+        <div class="col-lg-2 ">
+          <p class="p-1 text-center d-none d-lg-block m-auto">35 interessados</p>
+        </div>
+      </div>
+
+      <div class="col-12 d-flex border align-items-center py-3 mt-3">
+        <div class="col-sm-2 col-lg-1 d-none d-sm-block">
+          <p class="p-1 text-center m-auto">19/06/2024</p>
+        </div>
+        <div class="col-4 col-sm-5 col-lg-5">
+          <p class="p-1 text-center   m-auto"><a href="" class="text-dark text-decoration-none "><strong>App quiz e
+                flash card com Flutter Flow</strong></a></p>
+        </div>
+        <div class="col-4 col-sm-3 col-lg-2">
+          <p class="p-1 text-center   m-auto">Web, Mobile & Software</p>
+        </div>
+        <div class="col-4 col-sm-2 col-lg-2 ">
+          <p class="p-1 text-center   m-auto">R$1000 - R$2500</p>
+        </div>
+        <div class="col-lg-2 ">
+          <p class="p-1 text-center d-none d-lg-block m-auto">1 interessado</p>
+        </div>
+      </div>
+
+      <div class="col-12 d-flex border align-items-center py-3 mt-3">
+        <div class="col-sm-2 col-lg-1 d-none d-sm-block">
+          <p class="p-1 text-center m-auto">19/06/2024</p>
+        </div>
+        <div class="col-4 col-sm-5 col-lg-5">
+          <p class="p-1 text-center   m-auto"><a href="" class="text-dark text-decoration-none "><strong>Revisão de
+                texto em inglês</strong></a></p>
+        </div>
+        <div class="col-4 col-sm-3 col-lg-2">
+          <p class="p-1 text-center   m-auto">Inglês</p>
+        </div>
+        <div class="col-4 col-sm-2 col-lg-2 ">
+          <p class="p-1 text-center   m-auto">R$100 - R$500</p>
+        </div>
+        <div class="col-lg-2 ">
+          <p class="p-1 text-center d-none d-lg-block m-auto">4 interessados</p>
+        </div>
+      </div>
+
+      <div class="col-12 d-flex border align-items-center py-3 mt-3">
+        <div class="col-sm-2 col-lg-1 d-none d-sm-block">
+          <p class="p-1 text-center m-auto">19/06/2024</p>
+        </div>
+        <div class="col-4 col-sm-5 col-lg-5">
+          <p class="p-1 text-center   m-auto"><a href="" class="text-dark text-decoration-none "><strong>Criação de
+                copys para legendas em redes sociais</strong></a></p>
+        </div>
+        <div class="col-4 col-sm-3 col-lg-2">
+          <p class="p-1 text-center   m-auto">Copywriting </p>
+        </div>
+        <div class="col-4 col-sm-2 col-lg-2 ">
+          <p class="p-1 text-center   m-auto">R$800 - R$1200</p>
+        </div>
+        <div class="col-lg-2 ">
+          <p class="p-1 text-center d-none d-lg-block m-auto">3 interessados</p>
+        </div>
+      </div>
+
+      <div class="col-12 d-flex border align-items-center py-3 mt-3">
+        <div class="col-sm-2 col-lg-1 d-none d-sm-block">
+          <p class="p-1 text-center m-auto">19/06/2024</p>
+        </div>
+        <div class="col-4 col-sm-5 col-lg-5">
+          <p class="p-1 text-center   m-auto"><a href="" class="text-dark text-decoration-none "><strong>Edição de vídeo
+                empresarial</strong></a></p>
+        </div>
+        <div class="col-4 col-sm-3 col-lg-2">
+          <p class="p-1 text-center   m-auto">Vídeo - Edição e Produção</p>
+        </div>
+        <div class="col-4 col-sm-2 col-lg-2 ">
+          <p class="p-1 text-center   m-auto">R$1000 - R$1500</p>
+        </div>
+        <div class="col-lg-2 ">
+          <p class="p-1 text-center d-none d-lg-block m-auto">5 interessados</p>
+        </div>
+      </div>
+
+      <div class="col-12 d-flex border align-items-center py-3 mt-3">
+        <div class="col-sm-2 col-lg-1 d-none d-sm-block">
+          <p class="p-1 text-center m-auto">18/06/2024</p>
+        </div>
+        <div class="col-4 col-sm-5 col-lg-5">
+          <p class="p-1 text-center   m-auto"><a href="" class="text-dark text-decoration-none "><strong>Revisão de
+                textos do português para o italiano</strong></a></p>
+        </div>
+        <div class="col-4 col-sm-3 col-lg-2">
+          <p class="p-1 text-center   m-auto">Italiano </p>
+        </div>
+        <div class="col-4 col-sm-2 col-lg-2 ">
+          <p class="p-1 text-center   m-auto">R$200 - R$300</p>
+        </div>
+        <div class="col-lg-2 ">
+          <p class="p-1 text-center d-none d-lg-block m-auto">1 interessado</p>
+        </div>
+      </div>
+
+      <div class="col-12 d-flex border align-items-center py-3 mt-3">
+        <div class="col-sm-2 col-lg-1 d-none d-sm-block">
+          <p class="p-1 text-center m-auto">18/06/2024</p>
+        </div>
+        <div class="col-4 col-sm-5 col-lg-5">
+          <p class="p-1 text-center   m-auto"><a href="" class="text-dark text-decoration-none "><strong>Desenvolvimento
+                de história infantil sobre Muratubinha</strong></a></p>
+        </div>
+        <div class="col-4 col-sm-3 col-lg-2">
+          <p class="p-1 text-center   m-auto">Ilustração</p>
+        </div>
+        <div class="col-4 col-sm-2 col-lg-2 ">
+          <p class="p-1 text-center   m-auto">R$300 - R$500</p>
+        </div>
+        <div class="col-lg-2 ">
+          <p class="p-1 text-center d-none d-lg-block m-auto">2 interessados</p>
+        </div>
+      </div>
+
+      <div class="col-12 d-flex border align-items-center py-3 mt-3">
+        <div class="col-sm-2 col-lg-1 d-none d-sm-block">
+          <p class="p-1 text-center m-auto">18/06/2024</p>
+        </div>
+        <div class="col-4 col-sm-5 col-lg-5">
+          <p class="p-1 text-center   m-auto"><a href="" class="text-dark text-decoration-none "><strong>Bot para
+                Telegram - verificar alterações em lojas</strong></a></p>
+        </div>
+        <div class="col-4 col-sm-3 col-lg-2">
+          <p class="p-1 text-center   m-auto">Web, Mobile & Software</p>
+        </div>
+        <div class="col-4 col-sm-2 col-lg-2 ">
+          <p class="p-1 text-center   m-auto">R$1000 - R$2000</p>
+        </div>
+        <div class="col-lg-2 ">
+          <p class="p-1 text-center d-none d-lg-block m-auto">6 interessados</p>
+        </div>
+      </div>
+
+      <div class="col-12 d-flex border align-items-center py-3 mt-3">
+        <div class="col-sm-2 col-lg-1 d-none d-sm-block">
+          <p class="p-1 text-center m-auto">18/06/2024</p>
+        </div>
+        <div class="col-4 col-sm-5 col-lg-5">
+          <p class="p-1 text-center   m-auto"><a href="" class="text-dark text-decoration-none "><strong>Gestor de
+                tráfego para iGaming</strong></a></p>
+        </div>
+        <div class="col-4 col-sm-3 col-lg-2">
+          <p class="p-1 text-center   m-auto">Marketing Digital</p>
+        </div>
+        <div class="col-4 col-sm-2 col-lg-2 ">
+          <p class="p-1 text-center   m-auto">R$800 - R$900</p>
+        </div>
+        <div class="col-lg-2 ">
+          <p class="p-1 text-center d-none d-lg-block m-auto">4 interessados</p>
+        </div>
+      </div>
+
+      <div class="col-12 d-flex border align-items-center py-3 mt-3">
+        <div class="col-sm-2 col-lg-1 d-none d-sm-block">
+          <p class="p-1 text-center m-auto">18/06/2024</p>
+        </div>
+        <div class="col-4 col-sm-5 col-lg-5">
+          <p class="p-1 text-center   m-auto"><a href="" class="text-dark text-decoration-none "><strong>Criação de
+                slide/apresentação no Canva</strong></a></p>
+        </div>
+        <div class="col-4 col-sm-3 col-lg-2">
+          <p class="p-1 text-center   m-auto">Apresentação</p>
+        </div>
+        <div class="col-4 col-sm-2 col-lg-2 ">
+          <p class="p-1 text-center   m-auto">R$100 - R$300</p>
+        </div>
+        <div class="col-lg-2 ">
+          <p class="p-1 text-center d-none d-lg-block m-auto">30 interessados</p>
+        </div>
+      </div>
+
+
+      <nav aria-label="Page navigation example" class="mt-3">
+        <ul class="pagination justify-content-center">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      </div>
+    </section>
+    <!-- TABELA -->
+
+    </div>
+    </section>
+  </main>
+  <!-- FIM MAIN -->
+
+  <!-- FOOTER -->
+  <footer class="bg-azul text-color py-4">
+    <div class="container ">
+      <div class="row align-items-center  pt-4">
+
+        <!-- <span class="col-1 ">
+            <img class="logo-footer rounded-circle w-100" src="imagens/logo-png.jpeg" alt="">
+          </span> -->
+
+        <h2 class="h4 col-6 col-sm-6 col-md-9 h-100 ">Freelancer+</h2>
+
+        <h2 class="h4 col-6 col-sm-4 col-md-3 h-100 text-end pe-5">Siga-nos:</h2>
+
+        <p class=" col-6 col-sm-6 col-md-9">Sua Vaga Aqui!</p>
+
+        <ul class="d-flex col-6 col-sm-4 col-md-3 justify-content-end">
+          <li class="list-group-item me-3">
+            <a href="" class="text-color">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </li>
+
+          <li class="list-group-item me-3">
+            <a href="" class="text-color">
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </li>
+
+          <li class="list-group-item me-3">
+            <a href="" class="text-color">
+              <i class="bi bi-twitter-x"></i>
+            </a>
+          </li>
+
+          <li class="list-group-item me-3">
+            <a href="#" class="text-color">
+              <i class="bi bi-whatsapp"></i>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </footer>
+  <!-- FIM FOOTER -->
+
+  <!-- OFFCANVAS -->
+  <div class="offcanvas offcanvas-start bg-azul text-color" tabindex="-1" id="offcanvasExample"
+    aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header mt-3">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Freelancer+</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <hr class="mt-0">
+      <div class="text-center">
+        <ul class="mt-5">
+          <li class="list-group-item p-3  ">
+            <a class="text-color list-group-item fs-5" href="../index.html">Home</a>
+          </li>
+          <li class="list-group-item p-3 ">
+            <a class="text-color list-group-item fs-5" href="../pgs/cards.html">Vagas</a>
+          </li>
+          <li class="list-group-item p-3 ">
+            <a class="text-color list-group-item fs-5" href="../pgs/freelancers.html">Freelancers</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- FIM OFFCANVAS -->
+
+  <!-- MODAL  -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-azul text-color">
+          <h1 class="modal-title h5" id="exampleModalLabel">Entre na sua conta</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body bg-azul text-color">
+          <form class="container">
+            <section class="row">
+              <label class="form-label" for="">Usuário/E-mail:</label>
+              <input type="text" class="form-control" id="email">
+
+              <label for="" class="form-label mt-3">Senha:</label>
+              <input type="password" class="form-control" id="senha">
+
+              <div class="m-0" id="resultadoLogin">
+              
+              <p class="text-center pt-2">Não possui uma conta? <a href="../pgs/cadastro.html" class="text-color">Cadastre-se já!</a></p>
+            </section>
+          </form>
+        </div>
+        <div class="modal-footer bg-azul text-color">
+          <button type="button" class="btn btn-success" id="entrar">Entrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FIM MODAL  -->
+
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+
+</html>

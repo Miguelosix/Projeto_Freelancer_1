@@ -1,0 +1,136 @@
+:root {
+    --cor1: #FDFFE2;
+    --cor2: #455e82;
+    --cor3: #5A72A0;
+    --cor4: #09749e;
+}
+
+.bg-azul,
+.card {
+    background-color: var(--cor4);
+}
+
+.text-color {
+    color: var(--cor1);
+}
+
+.texto3 {
+    background-color: var(--cor3);
+}
+
+.menu {
+    font-size: 30px;
+}
+
+.logo {
+    height: 70px;
+}
+
+.logo-footer {
+    height: 55px;
+}
+
+.header {
+    height: 80vh;
+    background-image: url('../imagens/img8.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+
+    display: flex;
+    /* text-align: start; */
+    align-items: end;
+}
+
+.header-perfil {
+    height: 50vh;
+    background-image: url('../imagens/img6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+
+
+    display: flex;
+    /* text-align: start; */
+    align-items: end;
+
+}
+
+.text-info1{
+    color: var(--cor4);
+}
+
+.bg-cadastro-image {
+    background-image: url('../imagens/bg-cadastro.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.btn-color {
+    background-color: var(--cor3);
+    color: var(--cor1);
+}
+
+p {
+    text-align: justify;
+}
+
+.font-h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        height: 50px;
+    }
+}
+
+.w-30 {
+    width: 50%;
+}
+
+.p-perfil {
+    font-size: 14px;
+}
+
+.list-item-circle {
+    font-size: 8px;
+}
+
+.vh-total {
+    min-height: 135vh;
+}
+
+.fonte-cadastro {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bg-free {
+    background-color: var(--cor2);
+}
+
+.border-t {
+    border-top: 1px solid rgb(174, 173, 173);
+}
+
+.m-free {
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.fonte-free {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.hr {
+    color: #FDFFE2;
+}
+
+.card-shadow {
+    box-shadow: black;
+}
